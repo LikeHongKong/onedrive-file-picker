@@ -13,7 +13,7 @@ function getToken() {
       tmpResolve = resolve;
       challengeForAuth();
     }
-  });
+  }); 
 }
 
 // for added security we require https
