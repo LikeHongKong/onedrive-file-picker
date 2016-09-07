@@ -1,4 +1,6 @@
-var appInfo = { clientId: '000000004C179FFB', scopes: 'onedrive.readonly wl.signin', redirectUri: 'https://localhost:5000/callback.html'}
+var appInfo = { clientId: '9b341eb0-1a82-4296-aa56-3b1b202ba9e6', scopes: 'onedrive.readonly wl.signin', redirectUri: 'https://tony-ren-dev.github.io/index.html'}
+//https://login.live.com/oauth20_authorize.srf?client_id=9b341eb0-1a82-4296-aa56-3b1b202ba9e6&scope=onedrive.readonly%20wl.signin&response_type=token&redirect_uri=https%3A%2F%2Ftony-ren-dev.github.io%2Findex.html 
+
 var tmpResolve = null;
 
 function getToken() {
