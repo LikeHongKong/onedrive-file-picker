@@ -1,6 +1,6 @@
 var appInfo = { clientId: '14746d1d-a828-450c-9192-74f16e179374', scopes: 'onedrive.readonly wl.signin', redirectUri: 'https://login.salesforce.com/callback'}
 //https://login.live.com/oauth20_authorize.srf?client_id=9b341eb0-1a82-4296-aa56-3b1b202ba9e6&scope=onedrive.readonly%20wl.signin&response_type=token&redirect_uri=https%3A%2F%2Ftony-ren-dev.github.io%2Findex.html 
-
+ 
 var tmpResolve = null;
 
 function getToken() {
